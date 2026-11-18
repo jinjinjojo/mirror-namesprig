@@ -1,0 +1,4 @@
+/* partner match */
+.ns-rate{text-align:center}.ns-card{font-size:clamp(2.4rem,7vw,4rem);font-weight:750;margin:18px 0}.ns-card a{color:var(--ink);text-decoration:none}
+.ns-rate-b{justify-content:center;gap:16px}.ns-rate-b .btn{min-width:120px;min-height:52px;font-size:1.05rem}
+.mid-list{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:0}.mid-list li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}.mid-n{font-size:clamp(1.15rem,3vw,1.5rem);text-decoration:none;grid-column:1}.mid-n b{font-weight:600}.mid-w{grid-column:1;color:var(--fog,var(--dim));font-size:.85rem}.mid-list .btn{grid-column:2;grid-row:1/3}

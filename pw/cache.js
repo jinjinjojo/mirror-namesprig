@@ -1,0 +1,1 @@
+export function cached(r,o=6e4){const c="pw.c."+r;let e=null;try{e=JSON.parse(localStorage.getItem(c))}catch{}return e&&Date.now()-e.t<o?Promise.resolve(e.j):fetch(r,{credentials:"omit"}).then(t=>t.ok?t.json():Promise.reject(new Error(`HTTP ${t.status}`))).then(t=>{try{localStorage.setItem(c,JSON.stringify({t:Date.now(),j:t}))}catch{}return t}).catch(t=>e?e.j:Promise.reject(t))}
